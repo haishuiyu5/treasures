@@ -1,5 +1,5 @@
 export default {
-  path: '/About',
+  path: '/Layout/About',
   name: 'About',
   title: '关于',
   icon: 'Warning',

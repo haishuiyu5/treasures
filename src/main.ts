@@ -8,6 +8,10 @@ import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 
 import '@/assets/css/reset.css'
 
+import "@/mock/index"
+
+import pinia from './store'
+
 import router from './router'
 
 import App from './App.vue'
@@ -19,6 +23,8 @@ for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
 }
 
 app.use(ElementPlus)
+
+app.use(pinia)
 
 app.use(router)
 

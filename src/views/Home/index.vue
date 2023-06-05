@@ -24,7 +24,11 @@ import CommonMain from './components/CommonMain.vue';
     height: 100vh;
     .el-aside {
       background-color: #545c64;
-      border: none;
+      // border: none;
+    }
+    .el-header {
+      background-color: #545c64;
+      // border: none;
     }
   }
 }

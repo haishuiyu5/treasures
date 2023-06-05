@@ -1,14 +1,12 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
-import RouterMenu from '@/router/Menu/index'
+// import RouterMenu from '@/router/Menu/index'
 import Home from './modules/Home'
 import Error from '@/router/modules/404'
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    redirect: '/Layout',
-    children: 
-      RouterMenu
+    redirect: '/Layout/Home',
   },
   Home,
   Error,
